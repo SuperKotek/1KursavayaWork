@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Pnl9_Label2.Text" xml:space="preserve">
+    <value>1. Основное меню:
+Основное меню выполнено в форме линии, находящиеся в верхней части окна, с кнопками переключения панелями. На каждой кнопке описана функция, панель которой открывается при нажатии на соответствующую кнопку.
+2. Главный список:
+Главный список всегда выведен в правой части окна в виде DataGridView модуля. Он меняется при каждом действии. При выборе функций "Выборка файлов в определенный период времени", "Выборка файлов по обращениям", "Выборка файлов по начальным символам" создается резервная копия списка, для возвращения к исходному списку после просмотра выборки. Важно! Проект имеет только одно резервное сохранение, при переходе с одной функции выборки на другую, список автоматически зафиксирует изменения, и отменить их будет невозможно. Остальные функции можно использовать одновременно с выборкой, при этом имея возможность вернуться к исходному списку.
+3. Панели функций
+При нажатии кнопок основного меню выбирается определенная панель функции. Каждая панель функции находиться в левой части окна и заменяет друг друга при переключении. Каждая панель функции имеет собственную задачу и свое меню.
+3.1 Найти определенный элемент списка
+Данная панель содержит вводное поле с индексом элемента и 3 выходных поля, которые выводят имя файла, дату создания и количество обращений соответственно. Функция находит определенный элемент в нынешнем списке по индексу. Вводное поле автоматически подстраивается под длину используемого списка.
+Для нахождения элемента требуется ввести или изменить с помощью кнопок значение индекса.
+3.2 Добавление файла
+Данная панель содержит 7 вводных поля и одну кнопку, выполняющею функцию добавления. 1 поле - выбор места добавления нового элемента. Для выбора нажмите по строке и выберите нужное условие. При выборе "После элемента" и "Перед элементом" появляется второе вводное поле с выбором индекса элемента, от которого зависит положение нового элемента. Остальные вводные поля содержат информацию о новом элементе списка: Имя файла (не должен иметь в себе пробелов и не должен быть пустым), дата создания (состоит из 3-х вводных полей - День, Месяц и Год) и количества обращений. После нажатия кнопки, введенный элемент будет добавлен в список. При вводе в параметр имени пробелов или при пустом значении в вводное поле имени выводиться ошибка "Имя не должно содержать пробелов".
+3.3 Удаление файлов старее определенной даты
+Данная панель содержит 3 вводных поля и одну кнопку, выполняющую функцию удаления. Вводные поля являются вводом даты (состоит из 3-х вводных полей - День, Месяц и Год). После нажатия все файлы, дата которых более старая, чем введенная, будут удалены.
+3.4 Сортировка списка по именам
+Данная панель содержит одну кнопку. По нажатию на кнопку, существующий список будет отсортирован по именам. Эту функцию нельзя отменить, в отличии от выборок.
+3.5 Выборка файлов по обращениям
+Данная панель содержит одно вводное поле и 3 кнопки. Вводное поле содержит параметр количества элементов в выборке. Первая кнопка покажет новую выборку. Вторая кнопка сделает существующую выборку основным списком. Третья кнопка вернет исходный список. Важно! После перехода на следующую выборку (панель функции) функция возвращения к исходному списку будет недоступна.
+3.6 Выборка файлов в определенный период
+Данная панель содержит 6 вводных полей и 3 кнопки. Вводные поля содержат начальную и конечную даты (первые 3 вводных поля - начальная дата, следующие 3 вводных поля - конечная дата (состоит из 3-х вводных полей - День, Месяц и Год)). Первая кнопка покажет новую выборку. Вторая кнопка сделает существующую выборку основным списком. Третья кнопка вернет исходный список. Важно! После перехода на следующую выборку (панель функции) функция возвращения к исходному списку будет недоступна.
+3.7 Выборка файлов по начальным символам
+Данная панель содержит одно вводное поле и 3 кнопки. Вводное поле содержит начальные символы, по которым будут выбираться файлы. Первая кнопка покажет новую выборку. Вторая кнопка сделает существующую выборку основным списком. Третья кнопка вернет исходный список. Важно! После перехода на следующую выборку (панель функции) функция возвращения к исходному списку будет недоступна.
+3.8 Добавление файлов из текстового документа
+Данная панель содержит список доступных документов, одно вводное поле и одну кнопку. Список доступных документов показывает все текстовые документы, которые можно добавить в список. Вводное поле содержит номер документа из списка. При нажатии кнопки в существующий список будут добавлены элементы из выбранного текстового документа. Важно! Для корректной работы документ должен быть в формате .txt и с таким же форматом элементов (имя_файла дата_создания количество_элементов) , что и начальный список (StartList.txt).
+3.9 Сохранение списка в текстовый документ
+Данная панель содержит одно вводное поле и одну кнопку. Вводное поле предлагает ввести имя нового текстового документа (не должен иметь в себе пробелов и не должен быть пустым). При нажатии кнопки будет создан новый текстовый файл по адрессу &lt;НазваниеПроекта&gt;\&lt;НазваниеПроекта&gt;\bin\Debug . При вводе в параметр имени пробелов или при пустом значении в вводное поле имени выводиться ошибка "Имя не должно содержать пробелов". При неожиданной ошибке будет в вводное поле имени будет выведено "Не удалось создать файл".</value>
+  </data>
+</root>
