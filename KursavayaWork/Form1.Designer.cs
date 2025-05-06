@@ -42,6 +42,7 @@
             this.Pnl1_Label1 = new System.Windows.Forms.Label();
             this.MenuButton1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.MenuButton9 = new System.Windows.Forms.Button();
             this.MenuButton8 = new System.Windows.Forms.Button();
             this.MenuButton7 = new System.Windows.Forms.Button();
             this.MenuButton6 = new System.Windows.Forms.Button();
@@ -134,7 +135,6 @@
             this.Pnl9_Label2 = new System.Windows.Forms.Label();
             this.Pnl9_Button1 = new System.Windows.Forms.Button();
             this.Pnl9_Label1 = new System.Windows.Forms.Label();
-            this.MenuButton9 = new System.Windows.Forms.Button();
             this.Panel1FindElement.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pnl1_Numero1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -393,6 +393,17 @@
             this.panel2.Size = new System.Drawing.Size(792, 74);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // MenuButton9
+            // 
+            this.MenuButton9.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuButton9.Location = new System.Drawing.Point(1574, 3);
+            this.MenuButton9.Name = "MenuButton9";
+            this.MenuButton9.Size = new System.Drawing.Size(168, 51);
+            this.MenuButton9.TabIndex = 42;
+            this.MenuButton9.Text = "Справка";
+            this.MenuButton9.UseVisualStyleBackColor = true;
+            this.MenuButton9.Click += new System.EventHandler(this.MenuButton9_Click);
             // 
             // MenuButton8
             // 
@@ -1853,17 +1864,6 @@
             this.Pnl9_Label1.Text = "Сохранение списка в новый текстовый документ";
             this.Pnl9_Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // MenuButton9
-            // 
-            this.MenuButton9.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuButton9.Location = new System.Drawing.Point(1574, 3);
-            this.MenuButton9.Name = "MenuButton9";
-            this.MenuButton9.Size = new System.Drawing.Size(168, 51);
-            this.MenuButton9.TabIndex = 42;
-            this.MenuButton9.Text = "Справка";
-            this.MenuButton9.UseVisualStyleBackColor = true;
-            this.MenuButton9.Click += new System.EventHandler(this.MenuButton9_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1883,6 +1883,7 @@
             this.Controls.Add(this.Panel1FindElement);
             this.Controls.Add(this.KursovayLabel);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimumSize = new System.Drawing.Size(853, 653);
             this.Name = "Form1";
             this.Text = "Form1";
